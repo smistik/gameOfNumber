@@ -11,6 +11,9 @@ int main(int argc, char *argv[]){
 	int hracovoCislo;
 	tajneCislo = rand()%5+1; // nahodne od 1 do 5
 	cout << "Zadej svůj typ na tajné číslo:";
-	cin >> hracovoCislo; 
+	cin >> hracovoCislo;
+	if(tajneCislo==hracovoCislo){
+		cout << "Správně!" << endl;
+	}else cout << "Neuhodl!" << endl;
 	return 0;
 }
