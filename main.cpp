@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
 	cout << "Zadej svůj typ na tajné číslo:";
 	cin >> hracovoCislo;
 	if(tajneCislo==hracovoCislo){
-		cout << "Správně!" << endl;
+		cout << GREEN << "Správně!" << WHITE << endl;
 	}else cout << "Neuhodl!" << endl;
 	return 0;
 }
